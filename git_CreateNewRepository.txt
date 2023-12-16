@@ -1,0 +1,25 @@
+GitHub 연결하고 업로드 하는 법
+
+1. 깃허브에 새로운 Repository를 만듦.
+
+2. 윈도우 환경에서 폴더, 업로드 할 파일 만들기.
+
+3. 방금 만든 폴더에서 Bash창 열기
+- Git Bash가 처음일 때 초기 설정
+git config --global user.name
+git config --global user.email
+
+- config 확인
+git config --list
+
+4. git init - 현재 디렉토리 기준으로 깃 저장소를 생성됨.
+디렉토리 내부에 .git 디렉토리가 생긴다.
+
+5. git add .		(모든 파일 업로드)
+    git add practice.txt	(특정 파일 업로드)
+
+6. git commit -m "message"
+
+7. git push
+- 혹시나 push가 처음일 경우
+git push -u (Repository 주소) master
